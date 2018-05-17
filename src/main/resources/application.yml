@@ -1,0 +1,19 @@
+server:
+  port: 8761
+spring:
+  main:
+    banner-mode: "off"
+  application:
+    name: news-register-server
+eureka:
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 4000
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://sq:Sq888@127.0.0.1:8761/eureka/
+logging:
+  level:
+    root: info
