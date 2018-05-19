@@ -13,7 +13,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://sq:Sq888@127.0.0.1:8761/eureka/
+      defaultZone: http://sq:Sq888@neikan.shengquan.com:8761/eureka/
 logging:
   level:
     root: info
